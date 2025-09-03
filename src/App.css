@@ -57,8 +57,10 @@ button:active {
   }
   .grid {
     transform: scale(0.7);
+    margin-top: -70px;
   }
 }
+
 
 @media (max-width: 540px) {
   .grid {
