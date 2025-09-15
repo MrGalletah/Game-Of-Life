@@ -16,6 +16,7 @@ export default function GameGrid({grid, setGrid, numCols}) {
         {grid.map((rows, i) =>
           rows.map((col, k) => (
             <div
+              className="cell"
               key={`${i}-${k}`}
               onClick={() => {
                 const newGrid = produce(grid, (gridCopy) => {
